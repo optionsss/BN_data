@@ -1,0 +1,9 @@
+!BIOSYM archive 3
+PBC=ON
+Materials Studio Generated CAR File
+!DATE Sat Nov 21 13:53:53 2020
+PBC    2.4940    2.4940    5.8261   90.0000   90.0000  120.0000 (P63/MMC)
+B1      -0.000000000    1.439911547    1.456524968 XXXX 1      xx      B   0.000
+N3      -0.000000000    1.439911547    4.369574904 XXXX 1      xx      N   0.000
+end
+end
