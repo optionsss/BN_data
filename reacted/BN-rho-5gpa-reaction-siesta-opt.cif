@@ -1,0 +1,90 @@
+data_BN-rho-5gpa-reaction-siesta-opt
+_audit_creation_date              2020-12-02
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    5.0863
+_cell_length_b                    5.0863
+_cell_length_c                    4.2009
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+B1     B     0.16667   0.33333   0.18092   0.00000  Uiso   1.00
+N2     N     0.16667   0.33333   0.80682   0.00000  Uiso   1.00
+B3     B     0.33333   0.16667   0.68092   0.00000  Uiso   1.00
+N4     N     0.33333   0.16667   0.30682   0.00000  Uiso   1.00
+B5     B     0.66667   0.33333   0.18092   0.00000  Uiso   1.00
+N6     N     0.66667   0.33333   0.80682   0.00000  Uiso   1.00
+B7     B     0.83333   0.16667   0.68092   0.00000  Uiso   1.00
+N8     N     0.83333   0.16667   0.30682   0.00000  Uiso   1.00
+B9     B     0.16667   0.83333   0.18092   0.00000  Uiso   1.00
+N10    N     0.16667   0.83333   0.80682   0.00000  Uiso   1.00
+B11    B     0.33333   0.66667   0.68092   0.00000  Uiso   1.00
+N12    N     0.33333   0.66667   0.30682   0.00000  Uiso   1.00
+B13    B     0.66667   0.83333   0.18092   0.00000  Uiso   1.00
+N14    N     0.66667   0.83333   0.80682   0.00000  Uiso   1.00
+B15    B     0.83333   0.66667   0.68092   0.00000  Uiso   1.00
+N16    N     0.83333   0.66667   0.30682   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+B1     N4      1.561   .     S
+B1     N12     1.561   .     S
+B1     N8      1.561   1_455 S
+B1     N2      1.572   1_554 S
+N2     B3      1.561   .     S
+N2     B11     1.561   .     S
+N2     B7      1.561   1_455 S
+N2     B1      1.572   1_556 S
+B3     N10     1.561   1_545 S
+B3     N6      1.561   .     S
+B3     N4      1.572   .     S
+N4     B9      1.561   1_545 S
+N4     B5      1.561   .     S
+B5     N8      1.561   .     S
+B5     N16     1.561   .     S
+B5     N6      1.572   1_554 S
+N6     B7      1.561   .     S
+N6     B15     1.561   .     S
+N6     B5      1.572   1_556 S
+B7     N14     1.561   1_545 S
+B7     N2      1.561   1_655 S
+B7     N8      1.572   .     S
+N8     B13     1.561   1_545 S
+N8     B1      1.561   1_655 S
+B9     N12     1.561   .     S
+B9     N4      1.561   1_565 S
+B9     N16     1.561   1_455 S
+B9     N10     1.572   1_554 S
+N10    B11     1.561   .     S
+N10    B3      1.561   1_565 S
+N10    B15     1.561   1_455 S
+N10    B9      1.572   1_556 S
+B11    N14     1.561   .     S
+B11    N12     1.572   .     S
+N12    B13     1.561   .     S
+B13    N16     1.561   .     S
+B13    N8      1.561   1_565 S
+B13    N14     1.572   1_554 S
+N14    B15     1.561   .     S
+N14    B7      1.561   1_565 S
+N14    B13     1.572   1_556 S
+B15    N10     1.561   1_655 S
+B15    N16     1.572   .     S
+N16    B9      1.561   1_655 S

@@ -1,0 +1,88 @@
+
+     Program DYNMAT v.6.3 starts on  2Dec2020 at  9:10:37 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     Reading Dynamical Matrix from file dmat.BN-5rho
+     ...Force constants read
+     ...epsilon and Z* not read (not found on file)
+     Acoustic Sum Rule: || Z*(ASR) - Z*(orig)|| =    0.000000E+00
+     Acoustic Sum Rule: ||dyn(ASR) - dyn(orig)||=    4.694168E-03
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 1.000000 for Clausius-Mossotti correction
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1     -0.00   -0.0000    0.0000
+    2     -0.00   -0.0000    0.0000
+    3      0.00    0.0000    0.0000
+    4    473.28   14.1885    0.0000
+    5    473.28   14.1886    0.0000
+    6    479.23   14.3669    0.0000
+    7    479.23   14.3670    0.0000
+    8    479.23   14.3671    0.0000
+    9    603.11   18.0808    0.0000
+   10    603.12   18.0809    0.0000
+   11    603.14   18.0817    0.0000
+   12    686.20   20.5716    0.0000
+   13    686.20   20.5718    0.0000
+   14    686.21   20.5721    0.0000
+   15    834.49   25.0175    0.0000
+   16    834.52   25.0184    0.0000
+   17    834.72   25.0242    0.0000
+   18    869.73   26.0739    0.0000
+   19    869.95   26.0804    0.0000
+   20    869.98   26.0814    0.0000
+   21    878.05   26.3234    0.0000
+   22    878.13   26.3258    0.0000
+   23    878.15   26.3262    0.0000
+   24    897.51   26.9067    0.0000
+   25    897.52   26.9068    0.0000
+   26    897.52   26.9071    0.0000
+   27    957.99   28.7198    0.0000
+   28    958.05   28.7217    0.0000
+   29    958.12   28.7238    0.0000
+   30    958.80   28.7440    0.0000
+   31    958.80   28.7441    0.0000
+   32    969.47   29.0641    0.0000
+   33    997.24   29.8964    0.0000
+   34    997.24   29.8965    0.0000
+   35    997.24   29.8966    0.0000
+   36   1019.26   30.5568    0.0000
+   37   1019.39   30.5606    0.0000
+   38   1019.45   30.5624    0.0000
+   39   1026.72   30.7804    0.0000
+   40   1056.94   31.6863    0.0000
+   41   1056.94   31.6863    0.0000
+   42   1090.82   32.7019    0.0000
+   43   1090.86   32.7033    0.0000
+   44   1090.92   32.7049    0.0000
+   45   1120.89   33.6033    0.0000
+   46   1120.90   33.6039    0.0000
+   47   1120.98   33.6061    0.0000
+   48   1121.55   33.6231    0.0000
+ 
+     DYNMAT       :     0.22s CPU         0.78s WALL
+
+ 
+   This run was terminated on:   9:10:38   2Dec2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

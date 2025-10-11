@@ -1,0 +1,15 @@
+Normal modes for AA
+ &inputph
+  tr2_ph=1.0d-14,
+  prefix='pwscf',
+  amass(1)=10.810
+  amass(2)=14.007,
+  outdir='/home/hanghu/scratch/BN-rho-5GPa/reacted'
+  epsil=.false.,
+  lraman=.false.,
+  trans=.true.,
+  asr=.true.
+  fildyn='dmat.BN-5rho'
+ /
+ 0.0 0.0 0.0
+

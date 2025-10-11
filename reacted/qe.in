@@ -1,0 +1,3 @@
+cif2qe.sh Version 1.2
+Usage: cif2qe.sh [-i] [-s] File
+    ( -i uses the ibrav of QE. -s uses CRYSTAL sg atom position mode.
