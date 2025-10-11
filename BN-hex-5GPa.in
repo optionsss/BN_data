@@ -1,0 +1,53 @@
+ &control
+    calculation = 'vc-relax'
+    pseudo_dir='/home/hanghu/Simulaiton/QE/pseudo/'
+ /
+ &system
+    ibrav=  0, nat=  16, ntyp= 2,
+    ecutwfc =100.0,  nbnd = 120
+    input_dft='pbe',
+    exxdiv_treatment='gygi-baldereschi'
+    x_gamma_extrapolation = .true.
+ /
+ &electrons
+    conv_thr =  1.0e-7
+    mixing_beta=0.1
+ /
+ &IONS
+ ion_dynamics='bfgs'
+ ion_positions='from_input'
+ /
+ &CELL
+ cell_dynamics='bfgs'
+ press=50.000
+ press_conv_thr=0.001
+ cell_dofree='all'
+ /
+ATOMIC_SPECIES
+  B  10.81     B.pbe-n-kjpaw_psl.1.0.0.UPF
+  N  14.007    N.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+B     0.16667   0.33333   0.25000   
+B     0.33333   0.16667   0.75000   
+N     0.16667   0.33333   0.75000   
+N     0.33333   0.16667   0.25000   
+B     0.66667   0.33333   0.25000   
+B     0.83333   0.16667   0.75000   
+N     0.66667   0.33333   0.75000   
+N     0.83333   0.16667   0.25000   
+B     0.16667   0.83333   0.25000   
+B     0.33333   0.66667   0.75000   
+N     0.16667   0.83333   0.75000   
+N     0.33333   0.66667   0.25000   
+B     0.66667   0.83333   0.25000   
+B     0.83333   0.66667   0.75000   
+N     0.66667   0.83333   0.75000   
+N     0.83333   0.66667   0.25000   
+K_POINTS automatic
+ 6 6 3  0  0  0
+
+CELL_PARAMETERS
+     9.46034696645211      0.00000000000000      0.00000000000000
+    -4.73017348322605      8.19290080156258      0.00000000000000
+     0.00000000000000      0.00000000000000     11.67718469294026
+
