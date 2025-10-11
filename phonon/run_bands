@@ -1,0 +1,33 @@
+#!/bin/sh
+# run from directory where this script is
+cd `echo $0 | sed 's/\(.*\)\/.*/\1/'`
+EXAMPLE_DIR=`pwd`
+
+# check whether echo has the -e option
+for i in {25..25}
+do
+	text="m$i"
+	cp bands3.in $text/bandderivative/
+	cp input $text/bandderivative/
+	cd $text
+	cd n1
+	cat band1001.out band1002.out band1003.out band1004.out band1005.out band1006.out >>bands2.in
+	mv bands2.in ../bandderivative/.
+	cd ..
+
+	cd n2
+	cat band1001.out band1002.out band1003.out band1004.out band1005.out band1006.out >>bands1.in
+	mv bands1.in ../bandderivative/.
+	cd ..
+
+	cd p1
+	cat band1001.out band1002.out band1003.out band1004.out band1005.out band1006.out >>bands4.in
+	mv bands4.in ../bandderivative/.
+	cd ..
+
+	cd p2
+	cat band1001.out band1002.out band1003.out band1004.out band1005.out band1006.out >>bands5.in
+	mv bands5.in ../bandderivative/.
+	cd ..
+	cd ..
+done
